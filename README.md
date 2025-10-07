@@ -1,11 +1,10 @@
-# Relatório Completo de Testes Automatizados - Fleet Manager
+CypresspressRelatório Completo de Testes Automatizados - Fleet Manager
 
 ## Sumário
 
 - Testes Tela de Login
 - Testes Dashboard
 - Bugs, Limitações e Recomendações
-- Exemplos de códigos Cypress
 - Conclusão
 
 ---
