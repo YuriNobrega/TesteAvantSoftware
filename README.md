@@ -49,6 +49,10 @@
 | Logout trava no “redirecionando”          | Usuário não consegue sair do sistema          | Alto     | Corrigir fluxo e endpoint de logout                           |
 | Veículos ficam indisponíveis após testes  | Bloqueio de testes de cupom e pagamento       | Médio    | Criar ambiente com reset de dados ou mock para testes isolados|
 
+
+
+![Dashboard do Fleet Manager](cypress/screenshots/bug-campo-days-excesso.png)
+
 ---
 
 ## 4. Conclusão
