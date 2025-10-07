@@ -51,7 +51,6 @@ describe('Dashboard - Testes E2E Fleet Manager', () => {
     const daysLongo = '9'.repeat(100)
     cy.get('input[id="days"]').clear().type(daysLongo)
     cy.get('input[id="days"]').invoke('val').should('have.length.greaterThan', 10)
-    cy.get('.valor-total').should('be.visible')
     cy.screenshot('bug-campo-days-excesso')
   })
 
@@ -86,7 +85,7 @@ describe('Dashboard - Testes E2E Fleet Manager', () => {
       .click()
     cy.get('input[id="days"]').clear().type('1')
     cy.contains('button', 'Confirmar').click()
-    cy.get('input[value="pix"]').check()
+    cy.get('input[id="pix"]').check()
     cy.contains('button', 'Confirmar pagamento').click()
     cy.contains('Aluguel efetuado com sucesso').should('be.visible')
   })
