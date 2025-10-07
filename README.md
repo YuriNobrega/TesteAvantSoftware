@@ -14,7 +14,7 @@ CypresspressRelatório Completo de Testes Automatizados - Fleet Manager
 ### Casos testados
 
 - Validação de inputs vazios com mensagens nativas do browser.
-- Erro para e-mail sem “@” utilizando validação nativa `validationMessage`.
+- Erro para e-mail sem “@”.
 - Erro para senha incorreta com mensagem personalizada.
 - Persistência do e-mail preenchido após erro.
 - Campo senha do tipo oculto.
