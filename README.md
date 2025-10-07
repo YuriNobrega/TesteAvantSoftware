@@ -21,10 +21,6 @@
 - Campo senha do tipo oculto.
 - Login com dados válidos redireciona para dashboard.
 
-### Observações
-
-- Erros relacionados a mensagens nativas do navegador geram alertas visuais que não ficam no DOM, portanto foram validados via JS usando `checkValidity()` e `validationMessage`.
-- Cenários de entrada errada com erro visual claro.
 
 ---
 
