@@ -51,7 +51,7 @@
 
 
 
-![Dashboard do Fleet Manager](cypress/screenshots/bug-campo-days-excesso.png)
+![Bug campo Days](cypress/screenshots/bug-campo-days-excesso.png)
 
 ---
 
